@@ -1,0 +1,14 @@
+from: markdown+yaml_metadata_block+tex_math_dollars
+to: html5
+standalone: true
+
+template: template.html
+css:
+  - style.css
+
+toc: true
+toc-depth: 2
+number-sections: false
+
+html-math-method:
+  method: mathml

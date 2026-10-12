@@ -1,0 +1,50 @@
+/* Основной текст */
+
+@font-face {
+  font-family: "XCharter";
+  src: url("fonts/XCharter-Roman.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "XCharter";
+  src: url("fonts/XCharter-Italic.otf") format("opentype");
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "XCharter";
+  src: url("fonts/XCharter-Bold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "XCharter";
+  src: url("fonts/XCharter-BoldItalic.otf") format("opentype");
+  font-weight: 700;
+  font-style: italic;
+}
+
+/* Математика */
+
+@font-face {
+  font-family: "XCharter Math";
+  src: url("fonts/XCharter-Math.otf") format("opentype");
+}
+
+body {
+  font-family: "XCharter", serif;
+  font-size: 19px;
+  line-height: 1.55;
+
+  max-width: 52rem;
+  margin: 3rem auto;
+  padding: 0 1.5rem;
+}
+
+math {
+  font-family: "XCharter Math", "XCharter", serif;
+}
